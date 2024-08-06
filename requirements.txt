@@ -1,0 +1,2 @@
+torch
+s3prl
