@@ -66,9 +66,13 @@ class SVDD2024(Dataset):
 
         try:
             x, _ = librosa.load(file_path, sr=16000, mono=True)
-            x = process_Rawboost_feature(x, 16000, self.args, self.algo)
-            x = pad_random(x, self.max_len)
-            
+            if self.partition == "train":
+                x = process_Rawboost_feature(x, 16000, self.args, self.algo)
+                x = pad_random(x, self.max_len)
+            elif self.partition == "dev" or self.partition == "test":
+                pass
+            else:
+                raise ValueError 
             # Convert to PyTorch tensor
             x_inp = torch.tensor(x, dtype=torch.float32)
             
