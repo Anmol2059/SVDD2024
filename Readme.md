@@ -1,4 +1,4 @@
-## Implementation of [not yet released], Part of SVDD Challenge
+## Implementation of [SPEECH FOUNDATION MODEL ENSEMBLES FOR THE CONTROLLED SINGING VOICE DEEPFAKE DETECTION CTRSVDD CHALLENGE 2024](https://arxiv.org/pdf/2409.02302), Part of SVDD Challenge
 
 ### Steps to Implement:
 
