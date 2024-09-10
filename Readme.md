@@ -53,3 +53,15 @@
   - To use a different model, edit the model import and instantiation in the `train.py` file.
 
 For further details, refer to the  code comments within the scripts.
+
+### References
+If you would like to use or reference this work in your own research or project, please cite it as follows:
+
+```bibtex
+@article{guragain2024speech,
+  title={Speech Foundation Model Ensembles for the Controlled Singing Voice Deepfake Detection (CtrSVDD) Challenge 2024},
+  author={Guragain, Anmol and Liu, Tianchi and Pan, Zihan and Sailor, Hardik B and Wang, Qiongqiong},
+  journal={arXiv preprint arXiv:2409.02302},
+  year={2024}
+}
+
